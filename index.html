@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Choose the Door!</title>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <div class='header'>
+      <img src='https://content.codecademy.com/projects/chore-door/images/logo.svg'>
+    </div>
+    <div class='title-row'>
+      <img src='./imgs/star.svg'>
+      <p class='instructions-title'>Instructions</p>
+      <img src='./imgs/star.svg'>
+    </div>
+    <table class="instructions-row">
+        <tr>
+            <td class="instructions-number">1</td>
+            <td class="instructions-text">Behind some of these doors you'll find a bot</td>
+        </tr>
+        <tr>
+            <td class="instructions-number">2</td>
+            <td class="instructions-text">The game is to open all of the doors without seeing the boot</td>
+        </tr>
+        <tr>
+            <td class="instructions-number">3</td>
+            <td class="instructions-text">If you manage to avoid the bot until you opened the last door, you win =)</td>
+        </tr>
+        <tr>
+            <td class="instructions-number">4</td>
+            <td class="instructions-text">Winning streaks enabled, try hard baby</td>
+        </tr>
+    </table>
+    <div class='door-row'>
+      <img id='door1' class='door-frame' src='./imgs/closed_door.svg'>
+      <img id='door2' class='door-frame' src='./imgs/closed_door.svg'>
+      <img id='door3' class='door-frame' src='./imgs/closed_door.svg'>
+    </div>
+    <div id="start" class="start-row">Good luck!</div>
+    <script src="./script.js" type="text/javascript"></script>
+  </body>
+</html>
